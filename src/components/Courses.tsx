@@ -36,7 +36,7 @@ const newCourseData = [
         img: "/course8.jpg"
     },
     {
-        title: "Network Programmability and Automation",
+        title: "Network Programmability",
         img: "/course9.jpeg"
     },
 ]
@@ -49,8 +49,8 @@ const Courses = () => {
                     {
                         CourseData.map((ele, id) => {
                             return (
-                                <div key={id} className="md:w-[245px] w-full h-[342px] md:h-[234px] border rounded-lg shadow-2xl shadow-black transition-all duration-300 hover:scale-105">
-                                    <Image src={ele.img} alt="img" width={245} height={163} className="rounded-t-lg md:w-[245px] md:h-[163px] w-full h-[272px]" />
+                                <div key={id} className="md:w-[350px] w-full h-[342px] md:h-[250px] border rounded-lg shadow-2xl shadow-black transition-all duration-300 hover:scale-105">
+                                    <Image src={ele.img} alt="img" width={350} height={190} className="rounded-t-lg md:w-[350px] md:h-[190px] w-full h-[272px]" />
                                     <h3 className="text-center mt-4 text-lg font-semibold text-gray-500">{ele.title}</h3>
                                 </div>
                             )
@@ -62,8 +62,8 @@ const Courses = () => {
                     {
                         newCourseData.map((ele, id) => {
                             return (
-                                <div key={id} className="md:w-[245px] w-full h-[342px] md:h-[234px] border rounded-lg shadow-2xl shadow-black transition-all duration-300 hover:scale-105">
-                                    <Image src={ele.img} alt="img" width={245} height={163} className="rounded-t-lg md:w-[245px] md:h-[163px] w-full h-[272px]" />
+                                <div key={id} className="md:w-[320px] w-full h-[342px] md:h-[250px] border rounded-lg shadow-2xl shadow-black transition-all duration-300 hover:scale-105">
+                                    <Image src={ele.img} alt="img" width={320} height={200} className="rounded-t-lg md:w-[400] md:h-[200px] w-full h-[272px]" />
                                     <h3 className="text-center mt-2 text-lg font-bold text-gray-500 max-w-[98%] mx-auto">{ele.title}</h3>
                                 </div>
                             )
