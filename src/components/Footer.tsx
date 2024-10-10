@@ -5,7 +5,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <section className='relative py-24 mt-10 bg-[#F4F4F5]'>
-            <div className='max-w-[90%] mx-auto'>
+            <div className='max-w-[85%] mx-auto'>
                 <div className='flex justify-between md:flex-row flex-col md:gap-0 gap-8'>
                     <div>
                         <ul className='flex flex-col gap-3'>
@@ -36,10 +36,13 @@ const Footer = () => {
                                 <Image src='/instagram.png' alt='istagram' width={30} height={30} />
                                 <Image src='/tiktok.png' alt='tiktok' width={30} height={30} />
                             </ul>
-                            <Link href='mailto:education@governorsindh.com'><li className='list-none text-blue-600 underline'>
-                            <Image src='https://cdn-icons-png.freepik.com/512/2250/2250206.png' alt='Icon'></Image>
-                            <span>education@governorsindh.com</span>
-                            </li></Link>
+                            <Link href='mailto:education@governorsindh.com'>
+                            <span className="text-blue-600 underline">education@governorsindh.com</span>
+                            </Link>
+                            
+                            {/* <Link href='mailto:education@governorsindh.com'><li className='list-none '>
+                            
+                            </li></Link> */}
                         </div>
                     </div>
                 </div>
